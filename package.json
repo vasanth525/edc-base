@@ -1,0 +1,26 @@
+{
+  "name": "edc_base_ts",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "/dist/src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jsgen": "cd src && tsc",
+    "jswatch": "cd src && tsc -w"
+  },
+  "author": "vasanth",
+  "license": "ISC",
+  "dependencies": {
+    "requirejs": "^2.3.6",
+    "ts-loader": "^9.4.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2"
+  }
+}
