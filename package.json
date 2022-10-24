@@ -8,19 +8,19 @@
     "/dist/src"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "jsgen": "cd src && tsc",
-    "jswatch": "cd src && tsc -w"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "vasanth",
   "license": "ISC",
-  "dependencies": {
-    "requirejs": "^2.3.6",
-    "ts-loader": "^9.4.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
-    "gulp-uglify": "^3.0.2"
+    "gulp-uglify": "^3.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.55.0",
+    "shelljs": "^0.8.5",
+    "run-sequence": "^2.2.1",
+    "requirejs": "^2.3.6"
   }
 }
