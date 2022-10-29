@@ -20,6 +20,7 @@
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-typescript": "^9.0.2",
     "@types/requirejs": "^2.1.34",
+    "requirejs": "^2.3.6",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-sass": "^5.1.0",
